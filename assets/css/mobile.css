@@ -1,0 +1,297 @@
+@media only screen and (min-width: 1px) and (max-width: 799px) {
+
+  .display {
+    transform: scale(65%);
+    margin-top: 140px;
+    z-index: 995;
+  }
+
+  .computer {
+    left: -100px;
+  }
+
+  article:first-of-type {
+    margin-top: 300px;
+  }
+
+  .king-kong {
+    display: none;
+  }
+
+  .sites {
+    margin: 150px 20px 0px 20px;
+    border-bottom: solid 1px black;
+  }
+
+  .works p {
+    font-family: "Pixelify Sans", sans-serif;
+    text-align: start;
+    font-weight: 100;
+    font-size: 40px;
+    border-top: solid 1px black;
+  }
+
+  #container {
+    height: 130vh;
+  }
+
+  #container .box {
+    height: 63vh;
+  }
+
+  .prose {
+    margin-top: 10px;
+    text-align: center;
+  }
+
+  .logo-soya {
+
+    width: 150px;
+
+    top: 10px;
+    left: 0px;
+
+  }
+
+
+
+  #container {
+    margin-top: 30px;
+    -ms-overflow-style: none;
+    /* for Internet Explorer, Edge */
+    scrollbar-width: none;
+    /* for Firefox */
+    overflow-y: scroll;
+    overflow-x: scroll;
+    transform: rotate(270deg) translateX(-100%);
+    transform-origin: top left;
+    width: 100vh;
+    height: 150vw;
+  }
+
+  .process {
+    background-color: rgb(162, 255, 0);
+    border: solid 2px black;
+    box-shadow: -0px -20px 20px black;
+    height: 900px;
+  }
+
+  .box img {
+    margin-top: 20px;
+    filter: blur(0.4px);
+    display: flex;
+    height: 30%;
+    transform: rotate(1.5deg);
+    box-shadow: 0px 5px 8px grey;
+  }
+
+  .box {
+    display: flex;
+    margin-top: 0px;
+  }
+
+  #container .box>div {
+    background-color: #ffffff;
+    flex: 1;
+    justify-content: space-between;
+    border: solid 2px rgb(0, 0, 0);
+    border-radius: 10px;
+    box-shadow: 15px 15px 1px rgb(0, 34, 255);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    margin-top: 0px;
+    font-size: 2vh;
+    font-family: "Pixelify Sans", sans-serif;
+    color: #000000;
+  }
+
+  #container .box {
+    top: 0vh;
+    width: 28vw;
+    min-width: 350px;
+    height: 67vh;
+    display: inline-block;
+    position: relative;
+    margin: 20px;
+  }
+
+  #container {
+    margin-top: 30px;
+    -ms-overflow-style: none;
+    /* for Internet Explorer, Edge */
+    scrollbar-width: none;
+    /* for Firefox */
+    overflow-y: scroll;
+    overflow-x: scroll;
+    transform: rotate(270deg) translateX(-100%);
+    transform-origin: top left;
+    width: 100vh;
+    height: 150vw;
+  }
+
+  .process {
+    background-color: rgb(162, 255, 0);
+    border: solid 2px black;
+    box-shadow: -0px -20px 20px black;
+    height: 900px;
+  }
+
+  .box img {
+    margin-top: 20px;
+    filter: blur(0.4px);
+    display: flex;
+    height: 30%;
+    transform: rotate(1.5deg);
+    box-shadow: 0px 5px 8px grey;
+  }
+
+  .box {
+    display: flex;
+    margin-top: 0px;
+  }
+
+  #container .box>div {
+    background-color: #ffffff;
+    flex: 1;
+    justify-content: space-between;
+    border: solid 2px rgb(0, 0, 0);
+    border-radius: 10px;
+    box-shadow: 15px 15px 1px rgb(0, 34, 255);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    margin-top: 0px;
+    font-size: 2vh;
+    font-family: "Pixelify Sans", sans-serif;
+    color: #000000;
+  }
+
+  #container .box {
+    top: 0vh;
+    width: 28vw;
+    min-width: 350px;
+    height: 67vh;
+    display: inline-block;
+    position: relative;
+    margin: 20px;
+  }
+
+  .contact h1 {
+    font-size: 100px;
+    top: 50px;
+  }
+
+  .slide-animation-2 {
+    animation: slide-2 3s linear infinite;
+
+  }
+
+  .slide-animation {
+    animation: slide 3s linear infinite;
+
+  }
+
+  .contact main {
+    position: relative;
+    margin-top: 200px;
+    border: solid 1px white;
+    flex-wrap: wrap;
+    flex: 1;
+    box-shadow: 10px -10px 10px rgb(255, 0, 0), 20px -20px 10px rgb(195, 0, 255), 30px -30px 10px rgb(30, 0, 255), 40px -40px 10px rgb(1, 204, 255), 50px -50px 10px rgb(0, 255, 17);
+  }
+
+  .contact img {
+    height: 160px;
+    flex: 1;
+  }
+
+  .contact-me a {
+    font-size: 3.5vw;
+  }
+
+
+
+
+  header {
+    position: fixed;
+
+    top: 0px;
+    width: 100%;
+    display: flex;
+    height: 100px;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 998;
+  }
+
+  .cool-logo {
+    display: flex;
+    width: 100px;
+    opacity: 1;
+    margin-left: 20px;
+  }
+
+  .title {
+    display: none;
+  }
+
+  nav {
+    position: relative;
+    right: 30px;
+    z-index: 999;
+  }
+
+  nav span {
+    display: inline;
+    background-color: rgb(255, 0, 247);
+    list-style: none;
+    align-items: center;
+    padding: 10px 20px 10px 15px;
+    border: solid 1px rgb(255, 255, 255);
+    margin: 0 -1px;
+    width: 150px;
+    color: white;
+  }
+
+  ul {
+    position: absolute;
+    max-height: 0px;
+    overflow: hidden;
+    transition: all 1s;
+    display: flex;
+    margin-right: 40px;
+    flex-wrap: wrap;
+    right: -40px;
+    top: 30px;
+  }
+
+  nav:hover ul {
+    max-height: 400px;
+  }
+
+  nav li {
+    background-color: rgb(255, 0, 247);
+    list-style: none;
+    align-items: center;
+    padding: 10px 20px 10px 15px;
+    border: solid 1px rgb(255, 255, 255);
+    margin: 0 -1px;
+    width: 110px;
+    right: 100px;
+
+  }
+
+  nav a {
+    font-family: "Pixelify Sans", sans-serif;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-weight: 200;
+  }
+
+
+}

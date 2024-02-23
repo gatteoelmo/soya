@@ -1,0 +1,75 @@
+.scroll {
+  position: fixed;
+  top: 120px;
+  display: flex;
+  width: 100%;
+  overflow: hidden;
+  font-size: 250px;
+  color: rgba(0, 0, 0, 0.854);
+  font-family: "growth", sans-serif;
+  font-weight: 500;
+  background-color: rgba(255, 255, 255, 0);
+  z-index: 995;
+}
+
+
+.two {
+  top: 300px;
+}
+
+.three {
+  top: 480px;
+}
+
+.scroll div {
+  filter: blur(0.5px);
+  white-space: nowrap;
+  animation: scroll linear;
+  animation-timeline: scroll(root);
+}
+
+.scroll div:nth-child(2) {
+  white-space: nowrap;
+  animation: scroll linear;
+  animation-timeline: scroll(root);
+}
+
+.two div {
+  white-space: nowrap;
+  animation: scroll reverse;
+  animation-timeline: scroll(root);
+}
+
+.two div:nth-child(2) {
+  white-space: nowrap;
+  animation: scroll2 reverse;
+  animation-timeline: scroll(root);
+}
+
+.scroll span {
+  margin: 0px 20px;
+}
+
+.scroll img {
+  width: 160px;
+}
+
+@keyframes scroll {
+  0% {
+    transform: translateX(0%);
+  }
+
+  100% {
+    transform: translateX(-100%);
+  }
+}
+
+@keyframes scroll2 {
+  0% {
+    transform: translateX(0%);
+  }
+
+  100% {
+    transform: translateX(-100%);
+  }
+}

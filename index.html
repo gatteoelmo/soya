@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SOYA</title>
+    <link rel="stylesheet" href="/assets/css/styles.css" />
+    <link rel="stylesheet" href="/assets/css/header.css" />
+    <link rel="stylesheet" href="/assets/css/about.css">
+    <link rel="stylesheet" href="/assets/css/works.css">
+    <link rel="stylesheet" href="/assets/css/display.css" />
+    <link rel="stylesheet" href="/assets/css/scroll.css" />
+    <link rel="stylesheet" href="/assets/css/process.css">
+    <link rel="stylesheet" href="/assets/css/contact.css">
+    <link rel="stylesheet" href="/assets/css/mobile.css">
+    <meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1.0' />
+    <link rel="icon" type="image/x-icon" href="/assets/img/logo-bw.svg" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400;500;600;700&family=Source+Code+Pro:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <!-- I've divided the CSS into multiple files for better organization. Each .css file is named after its corresponding section, and additionally, I have a file named styles.css where the main styles for the entire website are located -->
+
+  <body>
+    <!-- Fixed header at the top. -->
+    <header>
+      <img src="/assets/img/logo-bw-{}.svg" alt="cool logo" class="cool-logo " />
+      <img src="/assets/img/font-material-04.svg" alt="" class="title" />
+      <nav>
+        <span>menu</span>
+        <ul>
+          <li class=" hover-effect"><a href="#intro">.intro</a></li>
+          <li class=" hover-effect"><a href="#about">.about</a></li>
+          <li class=" hover-effect" ><a href="#works">.works</a></li>
+          <li class=" hover-effect"><a href="#process">.process</a></li>
+          <li class=" hover-effect"><a href="#contact">.contact</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <!-- Background with skills and images that move with scrolling. Skills can be changed, just modify the text in the spans -->
+    <div class="scroll-container">
+      
+      <!-- First line of skills -->
+      <div class="scroll">
+        <div>
+          <span>WEB DEVELOPER,</span>
+          <span
+            ><img src="/assets/img/pixel-icons/briefcase.png" alt="" 
+          /></span>
+          <span>WEB DESIGNER,</span
+          ><span
+            ><img src="/assets/img/pixel-icons/piramid.png" alt="" 
+          /></span>
+          <span>BAD ASS,</span>
+          <span>CREATIVITY,</span
+          ><span
+            ><img src="/assets/img/pixel-icons/helm.png" alt="" 
+          /></span>
+        </div>
+        <div>
+          <span>WEB DEVELOPER,</span>
+          <span
+            ><img
+              src="/assets/img/pixel-icons/gear.png"
+              alt=""
+              style="animation: none"
+          /></span>
+          <span>WEB DESIGNER,</span
+          ><span
+            ><img src="/assets/img/pixel-icons/briefcase.png" alt="" 
+          /></span>
+          <span>BAD ASS,</span>
+          <span>CREATIVITY,</span
+          ><span
+            ><img src="/assets/img/pixel-icons/piramid.png" alt="" 
+          /></span>
+        </div>
+      </div>
+
+      <!-- second line of skills -->
+      <div class="scroll two">
+        <div>
+          <span>html</span>
+          <span
+            ><img src="/assets/img/pixel-icons/briefcase.png" alt="" 
+          /></span>
+          
+          <span>illustration boom</span><span><img src="/assets/img/pixel-icons/piramid.png" alt="" 
+          /></span><span>css is fun</span>
+          
+          <span>design is sbam </span><span>illustrator</span>
+          <span
+            ><img src="/assets/img/pixel-icons/gear.png" alt="" 
+          /></span>
+        </div>
+        <div>
+          <span>html</span>
+          <span
+            ><img src="/assets/img/pixel-icons/window.png" alt="" 
+          /></span>
+          
+          <span>illustration boom</span><span
+            ><img src="/assets/img/pixel-icons/ship.png" alt="" 
+          /></span><span>css is fun</span
+          >
+          <span>design is sbam</span><span>illustrator</span
+          ><span
+            ><img src="/assets/img/pixel-icons/gear.png" alt="" 
+          /></span>
+        </div>
+      </div>
+
+      <!-- third line of skills -->
+      <div class="scroll three">
+        <div>
+          <span>ok we</span>
+          <span
+            ><img src="/assets/img/pixel-icons/piramid.png" alt="" 
+          /></span>
+          <span>are</span>
+          <span><img src="/assets/img/pixel-icons/r&r.png" alt=""  /></span>
+          <span>already</span>
+          <span>to flip</span
+          ><span
+            ><img src="/assets/img/pixel-icons/pumpkin.png" alt="" 
+          /></span>
+        </div>
+        <div>
+          <span>ok we</span>
+          <span
+            ><img src="/assets/img/pixel-icons/weed.png" alt="" 
+          /></span>
+          <span>are</span
+          ><span
+            ><img src="/assets/img/pixel-icons/window.png" alt="" 
+          /></span>
+          <span>already</span>
+          <span>to flip</span
+          ><span
+            ><img src="/assets/img/pixel-icons/r&r.png" alt="" 
+          /></span>
+        </div>
+      </div>
+    </div>
+
+
+    <!-- Computer initial startup with screen and presentation. -->
+    <div class="intro" id="intro">
+      <div class="display">
+        <img src="/assets/img/pc-5.png" alt="" class="computer" />
+        <img src="/assets/img/pc-5.png" alt="" class="computer shadow" />
+        <div data-text="Hello World! " class="catchphrase">Hello World!</div>
+        <div data-text="I am SOYA." class="catchphrase">I am SOYA.</div>
+      </div>
+    </div>
+
+
+
+    <!-- ABOUT: Section divided into two, the first with a vignette and the second in prose. -->
+    <article class="about">
+      <h3 id="about">.about</h3>
+      <main>
+        <div>
+          <h2>Nice to meet you!</h2>
+          <p class="life cloud">
+            I'm Matteo Gallardo , but everyone calls me
+            <strong>Soya</strong>! I add flavor to everything I see or do,
+            adding colors, creativity, and of course, tastiness! Sbam!
+          </p>
+          <img src="/assets/img/logo-bw.svg" alt="" class="logo-soya" />
+        </div>
+        <p class="life prose">
+          Originally from Torino, Italia, I come from a typical terrestrial
+          family with a <strong>passion for technology</strong>. By the age of
+          6, I knew how to use a camera and enjoyed playing games on my GAME BOY
+          (not that I condone piracy). Although I studied
+          <strong>architecture </strong>at the Politecnico di Torino, I never
+          pursued a career as an architect, apart from internships and workshops
+          in Italy and Spain. For the past two years, I have been living in
+          Santa Cruz de Tenerife, working as a freelance
+          <strong>graphic illustrator and 3D modeler</strong> while also
+          studying to become a <strong>web developer and web designer</strong>.
+        </p>
+      </main>
+    </article>
+
+
+
+    <!-- The works section with an icon -->
+    <article class="works">
+      <h3 id="works">.works</h3>
+      <div>
+        <div class="king-kong">
+          <div>
+            "Work in progress" means that this field will be filled soon... very
+            soon!
+          </div>
+          <img src="/assets/img/pixel-icons/king-kong.png" alt="" />
+        </div>
+        <div class="sites">
+          <p class="hover-effect">WORK IN PROGRESS</p>
+          <p class="hover-effect">WORK IN PROGRESS</p>
+          <p class="hover-effect">WORK IN PROGRESS</p>
+          <p class="hover-effect">WORK IN PROGRESS</p>
+          <p class="hover-effect">WORK IN PROGRESS</p>
+          <p class="hover-effect">WORK IN PROGRESS</p>
+          <p class="hover-effect">WORK IN PROGRESS</p>
+        </div>
+      </div>
+    </article>
+
+
+    <!-- Section with the working process, horizontal scroll -->
+    <article class="process">
+      <h3 id="process">.process</h3>
+      <div id="container">
+        <div id="container2">
+          <div class="box">
+            <div><img src="/assets/img/film/nimic.jpg" alt="" class=" hover-effect"><div class="caption"><h4>
+              <div class="number">1</div>BREAFING
+            </h4><p>Drop me a detailed brief with who you are, what you stand for, your business aims, who you're targeting, what you're selling, must-have features, project scope (or a rough layout), when you need it done, any websites you're into, and anything else you reckon is key.</p></div></div>
+         </div>
+         <div class="box reverse">
+            <div><img src="/assets/img/film/the lobster.jpg" class=" hover-effect" alt=""><div class="caption"><h4>
+              <div class="number">2</div>EVALUATION
+            </h4><p>I will take a close look at your brief and assess whether the project meets the terms and requirements of both parties. If there is a match, we will have a online meeting to discuss how to proceed. </p></div></div>
+         </div>
+         <div class="box">
+          <div><img src="/assets/img/film/climax.jpg" alt="" class=" hover-effect"><div class="caption"><h4>
+            <div class="number">3</div>KICK-OFF
+            </h4><p>
+              We'll brainstorm ideas and hash out concepts to find the ideal solution for your needs. We can have multiple sessions if needed to nail it down just right. </p></div></div>
+         </div>
+         <div class="box reverse">
+           <div><img src="/assets/img/film/birdman.jpg" alt="" class=" hover-effect"><div class="caption"><h4>
+            <div class="number">4</div>DESIGN
+            </h4><p>Here's where the magic starts to unfold. I'll dive into art direction, concepts, and design. In the initial phase, I'll share a mood board or a few screens to capture the vibe and aesthetics of the end product. Once we've locked in the direction, I'll flesh out the entire project with my designs. </p></div></div>
+         </div> 
+        <div class="box">
+          <div><img src="/assets/img/film/irresversible.jpg" alt="" class=" hover-effect"><div class="caption"><h4>
+           <div class="number">5</div>DEVELOPMENT
+           </h4><p>
+            Once the design or mood board gets the green light, I'll dive into developing the respective screens. Throughout the process, I'll keep you in the loop with regular updates on the development status, ensuring you always know where things stand. </p></div></div>
+        </div> 
+        <div class="box reverse">
+          <div><img src="/assets/img/film/overclock-orange.jpg" alt="" class=" hover-effect"><div class="caption"><h4>
+           <div class="number">6</div>QUALITY ASSURANCE
+           </h4><p>Once development wraps up, we'll put the site through rigorous testing on various browsers and devices to iron out any bugs. After your final thumbs-up, the site is good to go live! </p>
+          </div>
+        </div>
+     </article>
+
+
+     
+     <!-- The vintage contacts section-->
+    <article class="contact">
+     <a href="" class="hover-effect"><h1 class="slide-animation"> contact me </h1> 
+     <h1 class="slide-animation-2"> contact me </h1></a>
+     <div id="contact" style="display:inherit;"></div>
+      <main>     
+        <div class=""><img src="/assets/img/gif/skeleton.gif" alt=""></div>
+        <div class="contact-me"><h2>Write me something nice:</h2><a href="mailto:matteogallardo.dev@elopment.com" target="_blank" linktype="email">matteogallardo.dev@elopment.com</a></div>
+        <div class="studio"><img src="/assets/img/gif/jim.gif" alt=""></div>
+        <div class="follow-me">
+          <h2>Follow me:</h2>
+          <span><a href="https://www.instagram.com/gatteo_elmollardo/?igsh=MTJqaHNob292ZjZibA%3D%3D&utm_source=qr" target="_blank">Instagram</a>
+            <a href="https://github.com/gatteoelmo" target="_blank">GitHub</a>
+          <a href="" target="_blank">Facebook</a>
+          <a href="" target="_blank">X (Twitter)</a>
+          </span>       
+        </div>
+      </main>
+    </article>
+ 
+  </body>
+</html>

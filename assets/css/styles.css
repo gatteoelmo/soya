@@ -1,0 +1,67 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+  overflow-x: hidden;
+}
+
+@font-face {
+  font-family: "Growth";
+  src: url(/assets/fonts/growth.otf);
+}
+
+body {
+  font-family: "Source Code Pro", monospace;
+  font-weight: 400;
+  overflow-x: hidden;
+}
+
+h1,
+h2,
+h3 {
+  font-family: "Growth", sans-serif;
+  font-weight: 300;
+}
+
+article:first-of-type {
+  margin-top: 1000px;
+}
+
+/* The articles will be above the scroll section, and the main elements will always be used as flexboxes with wrap */
+article {
+  position: relative;
+  width: 100%;
+  background-color: rgba(241, 241, 241);
+  z-index: 995;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-top: 50px;
+}
+
+#about,
+#works,
+#process {
+  padding-top: 90px;
+  padding-left: 50px;
+}
+
+
+/* The effects of the navigation and the works */
+.hover-effect {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.hover-effect:hover {
+  transform: scale(1.1);
+  text-shadow: 3px 3px rgb(255, 0, 247);
+  box-shadow: 0 0 20px rgba(255, 107, 233, 0);
+  /* Adjust shadow color and size as needed */
+}
