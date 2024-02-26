@@ -11,7 +11,7 @@ html {
 
 @font-face {
   font-family: "Growth";
-  src: url(./assets/fonts/growth.otf);
+  src: url(../assets/fonts/growth.otf);
 }
 
 body {
