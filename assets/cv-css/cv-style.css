@@ -1,0 +1,36 @@
+h1 {
+    font-family: "Pixelify Sans", sans-serif;
+    /* font-family: "Source Code Pro", monospace; */
+    font-size: 6.6vw;
+    padding: 50px 80px;
+    font-weight: 500;
+}
+
+.newspaper {
+    background-color: rgb(255, 252, 249);
+    border: solid 3px black;
+    margin: 120px 100px;
+    box-shadow: 10px 10px 5px;
+}
+
+.newspaper div {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    border-bottom: solid 2px black;
+    padding-bottom: 10px;
+}
+
+.newspaper div span {
+    font-family: "Jacquarda Bastarda 9", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 6.6vw;
+    text-align: center;
+}
+
+.newspaper div img {
+    width: 6.6vw;
+    height: 6.6vw;
+    margin-top: 20px;
+}
