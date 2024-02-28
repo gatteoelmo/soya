@@ -2,7 +2,6 @@ h1 {
     font-family: "Pixelify Sans", sans-serif;
     /* font-family: "Source Code Pro", monospace; */
     font-size: 6.6vw;
-    padding: 50px 80px;
     font-weight: 500;
 }
 
@@ -13,7 +12,15 @@ h1 {
     box-shadow: 10px 10px 5px;
 }
 
-.newspaper div {
+.content {
+    padding: 50px 80px;
+}
+
+h2 {
+    font-family: "Source Code Pro", monospace;
+}
+
+.newspaper div:first-child {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
