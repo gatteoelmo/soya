@@ -35,7 +35,7 @@ article:first-of-type {
 article {
   position: relative;
   width: 100%;
-  background-color: rgba(241, 241, 241);
+  background-color: rgb(255, 255, 255);
   z-index: 995;
 }
 

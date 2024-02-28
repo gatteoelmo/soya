@@ -181,7 +181,7 @@
     margin: 20px;
   }
 
-  .contact h1 {
+  .contact h2 {
     font-size: 100px;
     top: 50px;
   }
@@ -210,8 +210,12 @@
     flex: 1;
   }
 
-  .contact-me a {
+  .contact a {
     font-size: 3.5vw;
+  }
+
+  .contact h3 {
+    font-size: 15px;
   }
 
 
