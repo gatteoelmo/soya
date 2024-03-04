@@ -1,9 +1,12 @@
 h1 {
-    font-family: "Pixelify Sans", sans-serif;
+    font-family: "Newsreader", serif;
     /* font-family: "Source Code Pro", monospace; */
     font-size: 6.6vw;
-    font-weight: 500;
-    margin-bottom: 100px;
+    color: rgb(180, 0, 0);
+    font-weight: 400;
+    margin-bottom: 40px;
+    padding-bottom: 30px;
+    border-bottom: solid 1px black;
 }
 
 .newspaper {
@@ -13,17 +16,16 @@ h1 {
     box-shadow: 10px 10px 5px;
 }
 
+article {
+    background-color: rgb(255, 252, 249);
+}
+
 .content {
     padding: 50px 80px;
 }
 
 
-
-h2 {
-    font-family: "Source Code Pro", monospace;
-}
-
-.newspaper div:first-child {
+.newspaper>div:first-child {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
@@ -33,7 +35,8 @@ h2 {
 
 .newspaper div span {
     font-family: "Jacquarda Bastarda 9", serif;
-    font-weight: 400;
+    color: rgb(50, 50, 50);
+    font-weight: bold;
     font-style: normal;
     font-size: 6.6vw;
     text-align: center;
@@ -45,7 +48,85 @@ h2 {
     margin-top: 20px;
 }
 
-.content div {
+article {
     display: flex;
+    height: 400px;
+    padding: 50px;
+}
+
+.contact {
+    height: auto;
+}
+
+article:first-of-type {
+    margin-top: 0px;
+}
+
+.matteo {
+    position: relative;
+    flex: 1;
+    display: block;
+    width: 100%;
+    height: auto;
+    text-align: center;
+}
+
+.photo {
+    height: 100%;
+    -webkit-filter: grayscale(100%);
+    /* Safari 6.0 - 9.0 */
+    filter: grayscale(100%);
+}
+
+.image {
+    height: 90%;
+    -webkit-filter: grayscale(100%);
+    /* Safari 6.0 - 9.0 */
+    filter: grayscale(100%);
+}
+
+.skate {
+    margin-top: 30px;
+    margin-bottom: 60px;
+    text-align: center;
+}
+
+.skate img {
+    width: 70%;
+}
+
+.matteo div {
+    font-family: "Jacquarda Bastarda 9", serif;
+    position: absolute;
+    color: rgb(255, 255, 255);
+    bottom: 40px;
+    left: 80px;
+    font-size: 30px;
+    text-shadow: 3px 3px 10px rgb(0, 0, 0);
+}
+
+.columns {
+    flex: 2;
+    column-count: 2;
+    column-gap: 30px;
+}
+
+p,
+li {
+    font-family: "Newsreader", serif;
+    font-weight: 400;
+    color: rgb(50, 50, 50);
+}
+
+p {
+    font-size: 1.3vw;
+}
+
+.cv div {
+    width: 300px;
+    margin: 30px 10px;
+}
+
+.cv {
     justify-content: space-around;
 }

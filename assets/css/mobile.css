@@ -251,6 +251,7 @@
   }
 
   nav span {
+    font-family: "Pixelify Sans", sans-serif;
     display: inline;
     background-color: rgb(255, 0, 247);
     list-style: none;
@@ -262,7 +263,7 @@
     color: white;
   }
 
-  ul {
+  nav ul {
     position: absolute;
     max-height: 0px;
     overflow: hidden;
@@ -296,6 +297,68 @@
     color: rgb(255, 255, 255);
     font-weight: 200;
   }
+
+
+}
+
+@media only screen and (min-width: 1px) and (max-width: 1150px) {
+
+
+  h1 {
+    font-size: 12vw;
+  }
+
+  .content {
+    padding: 5px;
+  }
+
+  .columns {
+    width: 300px;
+    column-count: 2;
+    height: auto;
+    margin-bottom: 40px;
+    border-bottom: solid 1px black;
+    padding-bottom: 30px;
+  }
+
+  p {
+    font-size: 15px;
+  }
+
+  .matteo {
+    display: none;
+  }
+
+  article {
+    height: auto;
+    padding: 10px;
+  }
+
+  .newspaper {
+    margin: 120px 10px 50px 10px;
+  }
+
+  article:first-of-type {
+    margin-top: 0px;
+  }
+
+  .newspaper div span {
+    font-size: 8vw;
+  }
+
+  .world {
+    margin-top: 10px;
+    width: 8vw;
+    height: 8vw;
+  }
+
+
+
+
+
+
+
+
 
 
 }

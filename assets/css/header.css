@@ -23,9 +23,9 @@ header {
   width: 150px;
 }
 
-ul {
+nav ul {
   display: flex;
-  margin-right: 40px;
+  margin-right: 30px;
 }
 
 nav li {
@@ -47,4 +47,3 @@ nav a {
 nav span {
   display: none;
 }
-
