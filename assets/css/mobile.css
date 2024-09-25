@@ -129,14 +129,14 @@
     transform: rotate(270deg) translateX(-100%);
     transform-origin: top left;
     width: 100vh;
-    height: 150vw;
+    height: 100vw;
   }
 
   .process {
     background-color: rgb(162, 255, 0);
     border: solid 2px black;
     box-shadow: -0px -20px 20px black;
-    height: 900px;
+    height: 750px;
   }
 
   .box img {
@@ -151,6 +151,7 @@
   .box {
     display: flex;
     margin-top: 0px;
+    min-width: 350px
   }
 
   #container .box>div {
@@ -331,15 +332,17 @@
 
   article {
     height: auto;
-    padding: 10px;
+    padding: 0px;
   }
+
+
 
   .newspaper {
     margin: 120px 10px 50px 10px;
   }
 
   article:first-of-type {
-    margin-top: 0px;
+    margin-top: 300px;
   }
 
   .newspaper div span {
@@ -352,9 +355,39 @@
     height: 8vw;
   }
 
+  #about,
+  #works,
+  #process {
+    padding-top: 20px;
+    padding-left: 50px;
+  }
 
+  #container {
+    margin-left: 0px;
+  }
 
+  #about,
+  #works {
+    padding: 20px 50px;
+    margin-top: -1px
+  }
 
+  .prose {
+    margin-bottom: 80px;
+  }
+
+  .hover-effect span {
+    display: none;
+  }
+
+  .sites {
+    margin-top: 50px;
+  }
+
+  .display {
+    scale: 90%;
+    margin-left: -4vw;
+  }
 
 
 
